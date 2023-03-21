@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form VALIDATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+   
+        <div class="header">
+            <h2>create Account</h2>
+        </div>
+        <form action="result.html" id="form" method="GET" class="form">
+        <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="username" name="username">
+            <small>Error input</small>
+        </div>
+        <div class="form-control">
+            <label for="email">email</label>
+            <input type="email" id="email" placeholder="email" name="email">
+            <small>Error input</small>
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="password" name="password2">
+            <small>Error input</small>
+        </div>
+        <div class="form-control">
+            <label for="confirm-password">confirm-password</label>
+            <input type="password" id="confirm-password" placeholder="confirm-password" name="confirm-password">
+            <small>Error input</small>
+        </div>
+        <button type="submit" >Submit</button>
+    </form>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
